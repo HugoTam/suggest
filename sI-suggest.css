@@ -1,0 +1,52 @@
+.sI-suggest-wrapper{
+	margin: 0;
+	margin-top: 2px;
+	display: none; 
+	position: absolute;
+	z-index: 20;
+	background: #f8f8f8;
+	padding: 0;
+	box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 0px 4px 4px;
+}
+
+.sI-suggest-wrapper.mobile .sI-suggest-list{
+	max-height: 130px;
+	overflow: auto;
+}
+
+.sI-suggest-wrapper.associate{
+	display: block;
+}
+
+.sI-suggest-wrapper .note{
+	list-style: none;
+	color: #00cccc;
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+	height: 18px;
+	line-height: 20px;
+	padding: 4px 0px 4px 14px;
+	cursor: default;
+}
+
+.sI-suggest-list{
+	margin: 0;
+	padding: 0;
+}
+
+.sI-suggest-list .suggest{
+	height: 30px;
+	line-height: 30px;
+	list-style: none;
+	padding-left: 14px;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.sI-suggest-list .suggest:hover,
+.sI-suggest-list .suggest.active{
+	cursor: pointer;
+	background: rgba(0,204,204,.66);
+	color: #fff;
+}
